@@ -1,0 +1,20 @@
+body {
+	padding: 1em 2em;
+	font-family: 'Oswald', sans-serif;
+}
+
+table {
+	width: 100%;
+}
+
+tr:hover {
+	background-color: #ccccff;
+}
+
+tr:hover:nth-child(2n) {
+	background-color: #ccccaa;
+}
+
+.th {
+	background-color: rgba(0, 0, 0, 0.1);
+}
